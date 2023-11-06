@@ -1,5 +1,5 @@
-# Myselftoken-Solidity Program: MyToken
-This is a Solidity smart contract that implements a basic token called MyToken (META) with functionalities for minting and burning tokens.
+# Newesttoken
+This Solidity smart contract introduces Newesttoken, a fundamental token (TOKENMETACRAFTERS) and with public abbreviation (TMC) with functionalities for minting and burning tokens.
 
 # Requirements
 1.The contract has public variables to store details about the token, including its name, abbreviation, and total supply.
@@ -12,9 +12,9 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 
 5.The burn function includes conditionals to ensure that the balance of the sender is greater than or equal to the amount to be burned.
 # Usage
-1.tokenName: A public variable that represents the name of the token. In this contract, it is set to "TOKENMETACRAFTERS".
+1.tokenName: A public variable that holds the token's name. In this contract, it is set to "TOKENMETACRAFTERS".
 
-2.tokenAbbrv: A public variable that represents the abbreviation of the token. In this contract, it is set to "TMC".
+2.tokenAbbrv: A public variable that holds the abbreviation of the token. In this contract, it is set to "TMC".
 
 3.totalSupply: A public variable that stores the total supply of the token. Initially set to 0, it increases when tokens are minted and decreases when tokens are burned.
 
